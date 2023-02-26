@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.cal {
+  padding: 2rem;
+  width: 20rem;
+  background: white;
+  margin: 6rem 0 0 39rem;
+  border-radius: 2rem;
+}
+
+h2{
+  margin-left: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.head input {
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 17rem;
+  height: 4rem;
+  border: solid black;
+}
+
+button {
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+button:hover {
+  padding: 0.9rem;
+  border-radius: 2px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: black;
+  transition: 0.2s ease-in-out;
+}
+
+#ans {
+  padding-right: 1.7rem;
+}
+
+footer {
+  padding: 0.9rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 5rem;
+}
